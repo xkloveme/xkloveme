@@ -40,7 +40,7 @@ if __name__ == '__main__':
           '[![xkloveme](https://raw.githubusercontent.com/xkloveme/xkloveme/master/logo.svg)](https://www.jixiaokang.com)',
           '[![forthebadge](https://forthebadge.com/images/badges/ages-20-30.svg)](https://www.jixiaokang.com)'
           '[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://www.jixiaokang.com)'
-          '[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://www.jixiaokang.com)',
+          '[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.jixiaokang.com)',
           '[![xkloveme](https://raw.githubusercontent.com/xkloveme/xkloveme/master/slogan.svg)](https://www.jixiaokang.com)',
           "# 每日壁纸",
           img
