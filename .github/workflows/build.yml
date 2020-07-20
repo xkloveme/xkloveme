@@ -30,7 +30,7 @@ jobs:
       env:
         SIMONW_TOKEN: ${{ secrets.SIMONW_TOKEN }}
       run: |-
-        python build_readme.py
+        python main.py
         cat README.md
     - name: Commit and push if changed
       run: |-
