@@ -3,5 +3,3 @@ httpx
 feedparser
 beautifulsoup4
 pathlib
-ssl
-random
