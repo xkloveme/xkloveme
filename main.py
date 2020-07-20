@@ -37,9 +37,11 @@ if __name__ == '__main__':
     readme_contents = open(readme, 'w')
     md = "\n".join(
         [
-          '[![forthebadge](https://forthebadge.com/images/badges/ages-20-30.svg)](https://www.jixiaokang.com)',
-            "# 每日壁纸",
-            img
+          '[![forthebadge](https://forthebadge.com/images/badges/ages-20-30.svg)](https://www.jixiaokang.com)'
+          '[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)'
+          '[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://forthebadge.com)'
+          "# 每日壁纸",
+          img
         ]
     )
     print(md, img)

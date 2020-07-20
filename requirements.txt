@@ -1,7 +1,7 @@
 python-graphql-client==0.3.0
 httpx
 feedparser
-BeautifulSoup
+beautifulsoup4
 pathlib
 ssl
 random
