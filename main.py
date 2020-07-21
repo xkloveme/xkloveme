@@ -43,9 +43,14 @@ if __name__ == '__main__':
           '[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.jixiaokang.com)',
           '[![xkloveme](https://raw.githubusercontent.com/xkloveme/xkloveme/master/slogan.svg)](https://www.jixiaokang.com)',
           "# 每日壁纸",
-          img
+          img,
+          '# 推荐链接🔗',
+          '> [项目说明](./PROJECT.md)下面为推荐链接🔗,如有喜欢请关注\n',
         ]
     )
-    print(md, img)
+    link = root / "link.md"
+    link_contents = open(link, 'r')
+    link_list = link_contents.readlines()
     readme_contents.write(md)
+    readme_contents.writelines(link_list)
     readme_contents.close()
