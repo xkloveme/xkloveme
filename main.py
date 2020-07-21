@@ -45,10 +45,10 @@ if __name__ == '__main__':
           "# 每日壁纸",
           img,
           '# 推荐链接🔗',
-          '> [项目说明](./PROJECT.md)下面为推荐链接🔗,如有喜欢请关注\n',
+          '> [项目说明](https://github.com/xkloveme/xkloveme/blob/master/PROJECT.md)如果想展示您的链接🔗请`pr`,如有喜欢请关注\n',
         ]
     )
-    link = root / "link.md"
+    link = root / "LINK.md"
     link_contents = open(link, 'r')
     link_list = link_contents.readlines()
     readme_contents.write(md)
