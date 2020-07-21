@@ -1,5 +1,8 @@
 [![xkloveme](https://raw.githubusercontent.com/xkloveme/xkloveme/master/logo.svg)](https://www.jixiaokang.com)
-[![forthebadge](https://forthebadge.com/images/badges/ages-20-30.svg)](https://www.jixiaokang.com)[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://www.jixiaokang.com)[![forthebadge](https://forthebadge.com/images/badges/made-with-vue.svg)](https://www.jixiaokang.com)
+[![forthebadge](https://forthebadge.com/images/badges/ages-20-30.svg)](https://www.jixiaokang.com)[![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://www.jixiaokang.com)[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.jixiaokang.com)
 [![xkloveme](https://raw.githubusercontent.com/xkloveme/xkloveme/master/slogan.svg)](https://www.jixiaokang.com)
 # 每日壁纸
-[![每日壁纸](https://cn.bing.com/th?id=OHR.EarthriseSequence_ZH-CN0750195611_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp)](https://www.jixiaokang.com)
+[![每日壁纸](https://cn.bing.com/th?id=OHR.DinantBelgium_ZH-CN0913727176_1920x1080.jpg&rf=LaDigue_1920x1080.jpg&pid=hp)](https://www.jixiaokang.com)
+# 推荐链接🔗
+> [项目说明](./PROJECT.md)下面为推荐链接🔗,如有喜欢请关注
+- [xkloveme 的主页](https://github.com/xkloveme)
