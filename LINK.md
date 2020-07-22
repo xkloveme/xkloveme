@@ -1,1 +1,5 @@
 - [xkloveme 的主页](https://github.com/xkloveme)
+- [nashaofu 的主页](https://github.com/nashaofu)
+- [侑夕 的主页](https://github.com/tw93)
+- [Praveen Kumar 的主页](https://github.com/praveenscience)
+- [Tim Burgan 的主页](https://github.com/timburgan)
