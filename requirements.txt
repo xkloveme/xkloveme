@@ -3,6 +3,5 @@ httpx
 feedparser
 beautifulsoup4
 pathlib
-Pillow
 urllib
 datetime
