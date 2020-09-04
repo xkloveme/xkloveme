@@ -33,7 +33,7 @@ class Source (object):
 
 if __name__ == '__main__':
     obj = Source()
-    urllib.request.urlretrieve(obj.getSource(),'img/'+datetime.date.today()+'.png')
+    urllib.request.urlretrieve(obj.getSource(),root / img / (str(datetime.date.today())+'.png'))
     img = '[![每日壁纸](' + obj.getSource() + ')](https://www.jixiaokang.com)'
     readme = root / "README.md"
     readme_contents = open(readme, 'w')
