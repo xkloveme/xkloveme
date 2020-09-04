@@ -7,7 +7,7 @@ import datetime
 import bs4
 import tools
 from bs4 import BeautifulSoup
-from PIL import Image
+import urllib
 
 root = pathlib.Path(__file__).parent.resolve()
 
@@ -33,6 +33,7 @@ class Source (object):
 
 if __name__ == '__main__':
     obj = Source()
+    urllib.urlretrieve(obj.getSource(),'img/'+datetime.date.today()+'.png')
     img = '[![每日壁纸](' + obj.getSource() + ')](https://www.jixiaokang.com)'
     readme = root / "README.md"
     readme_contents = open(readme, 'w')
@@ -55,5 +56,3 @@ if __name__ == '__main__':
     readme_contents.write(md)
     readme_contents.writelines(link_list)
     readme_contents.close()
-    im= Image.open(obj.getSource())
-    im.save('img/'+datetime.date.today()+'.png',"PNG")

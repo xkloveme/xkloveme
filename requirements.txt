@@ -4,5 +4,5 @@ feedparser
 beautifulsoup4
 pathlib
 Pillow
-Image
+urllib
 datetime
