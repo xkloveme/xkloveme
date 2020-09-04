@@ -7,6 +7,7 @@ import re
 import bs4
 import tools
 from bs4 import BeautifulSoup
+from PIL import Image
 
 root = pathlib.Path(__file__).parent.resolve()
 
@@ -54,3 +55,4 @@ if __name__ == '__main__':
     readme_contents.write(md)
     readme_contents.writelines(link_list)
     readme_contents.close()
+    img.save('img/new_cat.png')
