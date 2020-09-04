@@ -3,7 +3,7 @@
 
 import pathlib
 import re
-
+import datetime
 import bs4
 import tools
 from bs4 import BeautifulSoup
@@ -55,4 +55,4 @@ if __name__ == '__main__':
     readme_contents.write(md)
     readme_contents.writelines(link_list)
     readme_contents.close()
-    img.save('img/new_cat.png')
+    img.save('img/'+datetime.date.today()+'.png')
