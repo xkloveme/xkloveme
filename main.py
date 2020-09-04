@@ -55,4 +55,5 @@ if __name__ == '__main__':
     readme_contents.write(md)
     readme_contents.writelines(link_list)
     readme_contents.close()
-    img.save('img/'+datetime.date.today()+'.png')
+    im= Image.open(obj.getSource())
+    im.save('img/'+datetime.date.today()+'.png',"PNG")
