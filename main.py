@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import pathlib
+import requests
 import re
 import datetime
 import bs4
@@ -18,17 +19,14 @@ class Source (object):
         self.T = tools.Tools()
 
     def getSource(self):
-        img = ''
-
-        url = 'https://cn.bing.com'
-        req = [
-            'user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Mobile Safari/537.36',
-        ]
-        res = self.T.getPage(url, req)
-        if res['code'] == 200:
-            soup = BeautifulSoup(res['body'], 'html.parser')
-            img = url + soup.find(id='sh_url').get('value')
-            return img
+        header = {
+      "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"}
+        Imgjson = requests.get('https://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=ZH-CN?utm_source=cyhour.com',
+                    headers=header).json()
+        # 正则表达式寻找图片URL并尝试将之更改为高分辨率图片地址
+        img_uhd = Imgjson["images"][0]['url'].replace('1920x1080', 'UHD')
+        img_url = "https://cn.bing.com"+img_uhd
+        return img_url
 
 
 if __name__ == '__main__':
